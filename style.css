@@ -1,11 +1,12 @@
 body {
-    background: #E3E1DB;
+    background: #e3e1db;
     font-family: sans-serif;
 }
 
-.header__image {
+.header__logo {
     height: 4rem;
 }
+
 a {
     text-decoration: none;
 }
@@ -17,5 +18,10 @@ ul {
 
 .nav__item {
     font-weight: 500;
-    
+}
+
+@media (max-width: 576px) {
+    .header__logo {
+        height: 3rem;
+    }
 }
