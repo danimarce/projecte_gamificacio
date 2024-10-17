@@ -1,6 +1,10 @@
 body {
     background: #e3e1db;
     font-family: sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 8fr 1fr;
+    height: 100vh;
 }
 
 .header__logo {
@@ -16,8 +20,21 @@ ul {
     padding: 0;
 }
 
+hr {
+    
+}
+
 .nav__item {
     font-weight: 500;
+}
+
+/* .main__wrapper {
+    align-items: center;
+    justify-content: center;
+} */
+
+.main__section {
+    width: 80vw;
 }
 
 @media (max-width: 576px) {
