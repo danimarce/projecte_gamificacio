@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 8fr 1.75fr;
+    grid-template-rows: 1fr 8fr 1.55fr;
     height: 100vh;
 }
 
@@ -13,6 +13,7 @@ body {
 
 a {
     text-decoration: none;
+    color: #000;
 }
 
 p {
@@ -34,6 +35,7 @@ hr {
 
 .nav__item {
     font-weight: 500;
+    font-size: 1.2rem;
 }
 
 /* .main__wrapper {
@@ -42,7 +44,12 @@ hr {
 } */
 
 .main__section {
-    width: 80vw;
+    width: 70vw;
+}
+
+.section__button {
+    background: #4c4b89;
+    color: #fff;
 }
 
 .footer__paragraph {
